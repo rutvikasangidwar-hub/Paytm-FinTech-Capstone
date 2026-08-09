@@ -7,39 +7,22 @@ ________________________________________
 Folder Structure
 payments_fraud_analytics/
 │
-
 ├── generate_data.py
-
 ├── merchants.csv
-
 ├── users.csv
-
 ├── ledger.csv
-
 ├── gateway_export.csv
-
 ├── reconcile.py
-
 ├── dashboard.py
-
 ├── sql_queries.sql
-
 ├── paytm_payments.db
-
 ├── merchant_workbook.xlsx
-
 ├── charts/
-
 │   ├── daily_gmv.png
-
 │   ├── daily_chargebacks.png
-
 │   ├── payment_method.png
-
 │   ├── category.png
-
 │   └── top10_merchants.png
-
 └── README.md
 ________________________________________
 Requirements
