@@ -1,0 +1,9 @@
+# Bias Awareness and Governance Note
+
+Credit risk models can improve consistency and speed in lending decisions, but they can also create unfair outcomes if the data or features contain hidden bias. One important concern is proxy bias. Even when sensitive characteristics are not included directly, variables such as employment type, location-related information, income patterns, credit history, or transaction behaviour may act as proxies for protected characteristics. A model may therefore produce different outcomes for groups because of historical or structural differences reflected in the training data.
+
+Human review should remain part of the lending process, especially for borderline cases, high-value loans, and adverse decisions. Model predictions should support decision-making rather than automatically replace all human judgment. Applicants should have a clear process for review or appeal where appropriate, and staff should be trained to identify cases in which model outputs may be unreliable.
+
+Strong governance is also necessary. The model should be monitored regularly for changes in performance, data drift, and differences in outcomes across relevant groups. Feature definitions, training data, model versions, thresholds, and validation results should be documented. Access controls and periodic independent reviews can improve accountability. Decisions and important model outputs should be auditable.
+
+For this project, Logistic Regression is generally the preferred baseline for credit decisions because its coefficients and predictions are easier to explain and review. A Decision Tree may capture more complex relationships, but it can be less stable and may overfit without careful validation. The final model should therefore be selected using both predictive performance and fairness, explainability, and governance considerations. No model should be deployed solely because it has the highest accuracy.

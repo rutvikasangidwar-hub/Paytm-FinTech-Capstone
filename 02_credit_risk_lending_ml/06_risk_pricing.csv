@@ -1,0 +1,5 @@
+Risk_Tier,Applicants,Avg_Default_Probability,Observed_Default_Rate,Interest_Rate
+Low Risk,25,2.01,8.0,10% - 12%
+Medium Risk,25,7.29,12.0,13% - 16%
+High Risk,25,23.39,20.0,17% - 20%
+Very High Risk,25,58.7,40.0,21% - 28%
