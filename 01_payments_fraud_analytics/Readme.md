@@ -48,17 +48,31 @@ python dashboard.py
 The dashboard calculates key payment metrics and saves charts in the `charts/` folder.
 4. Run SQL analysis
 Open `paytm_payments.db` in SQLite or DB Browser for SQLite and execute the queries in `sql_queries.sql`.
+
 Key Analyses
+
 The SQL analysis includes chargeback analysis, top merchants by GMV, payment-method analysis, burner-account detection, velocity detection, merchant-wise chargebacks, joins, daily GMV, status summaries, and high-risk transactions.
+
 Dashboard Metrics
+
 Total GMV: Total value of payment transactions.
+
 Success Rate: Percentage of transactions successfully captured.
+
 Chargeback Ratio: Percentage of transactions with chargeback status.
+
 Reconciliation Match Rate: Percentage of transactions that match between the ledger and gateway.
+
 The dashboard also includes daily GMV trends, daily chargeback trends, GMV by payment method, GMV by merchant category, and a top-merchants summary.
+
 Spreadsheet
+
 `merchant_workbook.xlsx` contains merchant and transaction data along with lookup-based analysis. It demonstrates VLOOKUP for merchant information and includes a lookup table for spreadsheet analysis.
+
 Technologies Used
+
 Python, Pandas, NumPy, Matplotlib, SQLite, SQL, and Microsoft Excel.
+
 Notes
+
 The project uses reproducible generated data and transaction IDs as the primary key for reconciliation.
